@@ -1,0 +1,68 @@
+body {
+    background-color: #f4c542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 320px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .tag {
+    background-color: #ffeb3b;
+    color: #000;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    color: #757575;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .description {
+    color: #333;
+    font-size: 14px;
+    margin: 0 0 20px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-name {
+    font-size: 14px;
+    color: #000;
+  }
+  
